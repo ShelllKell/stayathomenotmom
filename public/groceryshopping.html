@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grocery Shopping</title>
+    <title>Grocery Shopping - SAHNM</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -147,8 +147,36 @@
         </div>
     </article>
 
-    <hr>
 
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <div id="disqus_thread"></div>
+                      <script>
+                          /**
+                           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                           */
+
+                          var disqus_config = function () {
+                              this.page.url = 'http://stayathomenotmom.com/groceryshopping.html';  // Replace PAGE_URL with your page's canonical URL variable
+                              this.page.identifier = '/groceryshopping.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                          };
+
+                          (function() {  // DON'T EDIT BELOW THIS LINE
+                              var d = document, s = d.createElement('script');
+
+                              s.src = '//stayathomenotmom.disqus.com/embed.js';
+
+                              s.setAttribute('data-timestamp', +new Date());
+                              (d.head || d.body).appendChild(s);
+                          })();
+                      </script>
+                      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+              </div>
+          </div>
+      </div>
+    <hr>
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -194,6 +222,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+
+    <script id="dsq-count-scr" src="//stayathomenotmom.disqus.com/count.js" async></script>
 
 </body>
 
